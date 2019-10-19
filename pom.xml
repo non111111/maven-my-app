@@ -75,9 +75,9 @@
   <distributionManagement>
     <repository>
       <uniqueVersion>false</uniqueVersion>
-      <id>corp1</id>
+      <id>maven-release-snapshots</id>
       <name>Corporate Repository</name>
-      <url>http://localhost:8081/maven-local/maven-my-app</url>
+      <url>http://localhost:8081/</url>
       <layout>default</layout>
     </repository>
   </distributionManagement>
