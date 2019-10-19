@@ -76,12 +76,12 @@
     <repository>
         <id>central</id>
         <name>LAPTOP-GNBGIHM0-releases</name>
-        <url>http://localhost:8081/artifactory/libs-release-local;buildNumber=${buildNumber};revision=${revision}</url>
+        <url>http://localhost:8081/artifactory/libs-release-local</url>
     </repository>
     <snapshotRepository>
         <id>snapshots</id>
         <name>LAPTOP-GNBGIHM0-snapshots</name>
-        <url>http://localhost:8081/artifactory/libs-release-local;buildNumber=${buildNumber};revision=${revision}</url>
+        <url>http://localhost:8081/artifactory/libs-release-local</url>
     </snapshotRepository>
 </distributionManagement>
 </project>
