@@ -72,13 +72,16 @@
       </plugins>
     </pluginManagement>
   </build>
-  <distributionManagement>
-
+<distributionManagement>
     <repository>
-        <id>releases</id>
-      <name>releases</name>
+        <id>central</id>
+        <name>LAPTOP-GNBGIHM0-releases</name>
         <url>http://localhost:8081/artifactory/libs-release-local</url>
     </repository>
-  
-  </distributionManagement>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>LAPTOP-GNBGIHM0-snapshots</name>
+        <url>http://localhost:8081/artifactory/libs-release-local</url>
+    </snapshotRepository>
+</distributionManagement>
 </project>
