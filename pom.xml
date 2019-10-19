@@ -75,14 +75,14 @@
   <distributionManagement>
     <repository>
         <id>central</id>
-        <url>http://[host]:[port]/artifactory/libs-release</url>
+        <url>http://localhost:8081/artifactory/libs-release</url>
         <snapshots>
             <enabled>false</enabled>
         </snapshots>
     </repository>
     <repository>
         <id>snapshots</id>
-        <url>http://[host]:[port]/artifactory/libs-snapshot</url>
+        <url>http://localhost:8081/artifactory/libs-snapshot</url>
         <releases>
             <enabled>false</enabled>
         </releases>
