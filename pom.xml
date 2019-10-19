@@ -73,6 +73,7 @@
     </pluginManagement>
   </build>
   <distributionManagement>
+    <repositories>
     <repository>
         <id>central</id>
         <url>http://localhost:8081/artifactory/libs-release</url>
@@ -87,5 +88,6 @@
             <enabled>false</enabled>
         </releases>
     </repository>
+    </repositories>
   </distributionManagement>
 </project>
